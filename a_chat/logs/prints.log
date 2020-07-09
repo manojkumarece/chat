@@ -1,0 +1,5 @@
+10:32:39.051 [main] INFO  resources.base - Click attach icon
+10:32:40.483 [main] INFO  resources.base - Click image file
+10:32:43.328 [main] INFO  resources.base - Click photo
+10:32:52.797 [main] INFO  resources.base - Successfully send camera photo
+10:33:00.522 [main] INFO  resources.base - Successfully send audios

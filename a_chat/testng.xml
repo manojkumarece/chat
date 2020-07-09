@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="mobilfuns.a_chat.Listeners"/>
+</listeners>
+
+    
+  <test  name="pin_page">
+    <classes>
+       <class name="mobilfuns.a_chat.pinenterpage"/>
+       
+       </classes>
+       </test>
+            
+        <test  name="validation title">
+       <classes>
+      <class name="mobilfuns.a_chat.validatetitle"/>
+      
+      </classes>
+      </test>
+  
+       
+      <test  name="Timer message">
+      <classes>
+      <class name="mobilfuns.a_chat.timer_msg"/>
+     
+    </classes>
+    
+    </test>
+      
+    <test  name="send text">
+      <classes>
+      <class name="mobilfuns.a_chat.sendtext"/>
+    </classes>
+    </test>  
+    <test  name="send images">
+      <classes>
+      <class name="mobilfuns.a_chat.sendimages"/>
+        </classes>   
+    </test> 
+    <test  name="send documents">
+      <classes>
+      <class name="mobilfuns.a_chat.senddocuments"/>
+    </classes>
+    </test>  
+     <test  name="send videos">
+      <classes>
+      <class name="mobilfuns.a_chat.sendvideos"/>  
+    </classes>
+    </test>
+    
+     <test  name="send audios">
+      <classes>
+      <class name="mobilfuns.a_chat.sendaudios"/>  
+    </classes>
+    
+    </test>
+    
+     <test  name="send live location">
+      <classes>
+      <class name="mobilfuns.a_chat.sendlivelocation"/>
+     
+    </classes>
+    
+    </test>
+    
+    <test  name="Send Camera photo">
+      <classes>
+      <class name="mobilfuns.a_chat.sendcamera_photo"/>
+     
+    </classes>
+    
+    </test>
+    
+    <test  name="Send Recorded audio">
+      <classes>
+      <class name="mobilfuns.a_chat.recordaudio"/>
+     
+    </classes>
+    
+    </test>
+    
+    <test  name="Voice call">
+      <classes>
+      <class name="mobilfuns.a_chat.voicecall"/>
+     
+    </classes>
+    
+    </test>
+    <test  name="Video call">
+      <classes>
+      <class name="mobilfuns.a_chat.videocall"/>
+     
+    </classes>
+    
+    </test> 
+   
+  
+      
+    
+</suite> <!-- Suite -->
